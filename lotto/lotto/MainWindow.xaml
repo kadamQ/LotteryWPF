@@ -1,0 +1,107 @@
+﻿<Window x:Class="lotto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lotto"
+        mc:Ignorable="d"
+        xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize"
+        x:Name="window" Title="Ötöslottó szimulátor" Height="500" Width="600"      
+        MouseDown="Window_MouseDown" SizeToContent="WidthAndHeight">
+        
+    <Window.Resources>
+        <CollectionViewSource Source="{Binding ElementName=window, Path=HighscoreList}" x:Key="HighScoreListViewSource">
+            <CollectionViewSource.SortDescriptions>
+                <scm:SortDescription Direction="Descending" PropertyName="Money"/>
+            </CollectionViewSource.SortDescriptions>
+        </CollectionViewSource>
+    </Window.Resources>
+    
+    <Grid  Background="DarkGreen">
+        <Border BorderBrush="WhiteSmoke" BorderThickness="2"></Border>
+        <Grid x:Name="Open" Visibility="Visible">
+            <Label Content="Ötöslottó szimulátor" VerticalAlignment="Top" HorizontalAlignment="Center"  FontSize="61.5" Background="Green" Foreground="WhiteSmoke" Margin="8,50,8,0" BorderBrush="WhiteSmoke" BorderThickness="5" Height="108"/>
+            <Label Content="Add meg a neved:" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="37" Background="Green" Foreground="WhiteSmoke" Margin="274,197,9.667,206" BorderBrush="WhiteSmoke" BorderThickness="2" Height="69" Width="311"/>
+            <Image Source="/images/otoslotto.png" VerticalAlignment="Top" HorizontalAlignment="Left" Height="251" Margin="10,211,0,0"  Width="286"/>
+            <TextBox Name="tbplayerName" Style="{StaticResource WaterMarkStyle}" Tag="Max 13 karakter" FontSize="28.5" HorizontalAlignment="Left" Height="53" Margin="291,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223"  Foreground="WhiteSmoke" MaxLength="13" CaretBrush="WhiteSmoke" KeyDown="TbplayerName_KeyDown"/>
+            <Button Content="OK" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Green" Foreground="WhiteSmoke" FontSize="20" Height="64" Margin="519,284,0,0"  Width="68" BorderBrush="WhiteSmoke" BorderThickness="2" Style="{StaticResource MyButton}" Click="BtnOK_Click" />
+            <Button x:Name="btnExit0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="KILÉPÉS" FontSize="40" Foreground="WhiteSmoke"  Width="300" Margin="150,381,0,0" Height="81" Style="{StaticResource MyButton}" Click="BtnExit_Click"/>
+        </Grid>
+        <Grid x:Name="Choose" Visibility="Hidden">
+            <Label Content="Ötöslottó szimulátor" VerticalAlignment="Top" HorizontalAlignment="Center"  FontSize="61.5" Background="Green" Foreground="WhiteSmoke" Margin="8,50,8,0" BorderBrush="WhiteSmoke" BorderThickness="5" Height="108"/>
+            <Image Source="/images/otoslotto.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,211,0,0" Width="286" Height="251"/>
+            <StackPanel HorizontalAlignment="Center" Margin="265, 188, 0, 0">
+                <Button x:Name="btnPlay"  HorizontalAlignment="Center" VerticalAlignment="Center" Width="220" Height="77" Content="JÁTÉK" FontSize="27" Margin="5" Foreground="WhiteSmoke" Style="{StaticResource MyButton}" Click="BtnPlay_Click"/>
+                <Button x:Name="btnPrize" HorizontalAlignment="Center" VerticalAlignment="Center" Width="220" Height="77" Content="NYEREMÉNYEK" FontSize="27" Margin="5" Foreground="WhiteSmoke" Style="{StaticResource MyButton}" Click="BtnPrize_Click"/>
+                <Button x:Name="btnExit1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="220" Height="77" Content="KILÉPÉS" FontSize="27" Margin="5" Foreground="WhiteSmoke" Style="{StaticResource MyButton}" Click="BtnExit_Click"/>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="Scoreboard" Visibility="Hidden">
+            <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Background="WhiteSmoke" FontSize="34" FontWeight="Bold" Margin="10,10,10,433" Width="580">Legnagyobb nyeremények</TextBlock>
+            <StackPanel Orientation="Horizontal" Margin="10,70,10,393"  Background="WhiteSmoke" Width="580">
+                <Label Content="Játékos neve" HorizontalContentAlignment="Center" VerticalAlignment="Center" Margin="20,0,10,0" FontSize="15" FontWeight="Bold" Width="120"></Label>
+                <Label Content="Az Ön számai" HorizontalContentAlignment="Center" VerticalAlignment="Center" Margin="0,0,10,0" FontSize="15" FontWeight="Bold" Width="110" ></Label>
+                <Label Content="Nyerőszámok" HorizontalContentAlignment="Center" VerticalAlignment="Center" Margin="0,0,30,0" FontSize="15" FontWeight="Bold" Width="110" ></Label>
+                <Label Content="Nyeremény" HorizontalContentAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Bold" Width="110" ></Label>
+                <Label Content="Találat" HorizontalContentAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Bold" Width="60" ></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Background="WhiteSmoke" Margin="10,110,10,82" Name="bdrHighscoreList">
+                <ItemsControl ItemsSource="{Binding Source={StaticResource HighScoreListViewSource}}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal"  Margin="15,0,0,11">
+                                <TextBlock Text="{Binding PlayerName}" TextAlignment="Center" FontSize="15" Width="130"></TextBlock>
+                                <TextBlock Text="{Binding UserNumbers}" TextAlignment="Center" FontSize="15" Width="120"></TextBlock>
+                                <TextBlock Text="{Binding LotteryNumber}" TextAlignment="Center" FontSize="15" Width="120"></TextBlock>
+                                <TextBlock Text="{Binding Prize}"  TextAlignment="Center" FontSize="15" Width="160"></TextBlock>
+                                <TextBlock Text="{Binding Score}" TextAlignment="Center" FontSize="15" Width="15"></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <Button x:Name="btnExit3" Content="KILÉPÉS" FontSize="27"  Foreground="WhiteSmoke" Margin="468,422,4,5" Style="{StaticResource MyButton}" Click="BtnExit_Click"/>
+            <Button x:Name="btnBack2" Content="VISSZA" FontSize="27"  Foreground="WhiteSmoke" Width="124" Margin="4,422,472,5" Style="{StaticResource MyButton}" Click="BtnBack_Click"/>
+        </Grid>
+        <Grid x:Name="Game" Visibility="Hidden">
+            <TextBlock Background="WhiteSmoke" TextAlignment="Center" HorizontalAlignment="Center" Width="331" Margin="13,4,256,414"> <Run Text="Szerencsejáték Zrt. 1015"/><LineBreak/><Run Text="Budapest Csalogány u.30-32."/><LineBreak/><Run Text="Adószám: 10580204-2-44"/></TextBlock>
+            <TextBlock Background="WhiteSmoke" TextAlignment="Center" HorizontalAlignment="Center" Width="331" Margin="13,56,256,309" FontSize="18"><Run FontSize="28" Text="&lt; &lt; N Y U G T A &gt; &gt;"/><LineBreak/><Run FontSize="20" Text="Lottó 5/90 Normál"/><LineBreak/><Run FontSize="20" Text="1 HETES"/><LineBreak/><Run/></TextBlock>
+            <TextBlock TextAlignment="Center" Text="01. Mező" Margin="13,165,532,7" FontSize="11"/>
+            <Button x:Name="btnExit2" Content="KILÉPÉS" FontSize="27" Foreground="WhiteSmoke" Margin="468,425,4,2" Style="{StaticResource MyButton}" Click="BtnExit_Click"/>
+            <Button x:Name="btnBack" Content="VISSZA" FontSize="27" Foreground="WhiteSmoke" Width="124"  Margin="4,425,472,2" Style="{StaticResource MyButton}" Click="BtnBack_Click"/>
+            <Button x:Name="btnDraw" VerticalAlignment="Top" Content="SORSOLÁS" FontSize="27" Foreground="WhiteSmoke" Margin="387,131,34,0"  Style="{StaticResource MyButton}" Click="BtnDraw_Click"/>
+            <Image Source="/images/draw.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="416,10,0,0" Height="123" Width="136"/>
+            <Line X1="466" Y1="160" X2="143" Y2="160" Stroke="Black" StrokeThickness="2" Margin="-126,-5,125.6,5.4" />
+            <Line X1="200" Y1="193" X2="200" Y2="160" Stroke="Black" StrokeThickness="2" Margin="-132,-5,131.6,5.4" />
+            <StackPanel x:Name="userNumPanel" Orientation="Horizontal" Margin="0,-45,120,83.4" Width="308">
+                <TextBox x:Name ="txtUserNum1" Background="White" TextAlignment="Center" Height="23"  Width="35" MaxLength="2" Margin="0,206,7,232.333" BorderThickness="1 0 1 0" BorderBrush="Black" FontSize="16"/>
+                <TextBox x:Name ="txtUserNum2" Background="White" TextAlignment="Center" Height="23"  Width="35" MaxLength="2" Margin="0,206,7,232.333" BorderThickness="1 0 1 0" BorderBrush="Black" FontSize="16"/>
+                <TextBox x:Name ="txtUserNum3" Background="White" TextAlignment="Center" Height="23"  Width="35" MaxLength="2" Margin="0,206,7,232.333" BorderThickness="1 0 1 0" BorderBrush="Black" FontSize="16"/>
+                <TextBox x:Name ="txtUserNum4" Background="White" TextAlignment="Center" Height="23"  Width="35" MaxLength="2" Margin="0,206,7,232.333" BorderThickness="1 0 1 0" BorderBrush="Black" FontSize="16"/>
+                <TextBox x:Name ="txtUserNum5" Background="White" TextAlignment="Center" Height="23"  Width="35" MaxLength="2" Margin="0,206,0,232.333" BorderThickness="1 0 1 0" BorderBrush="Black" FontSize="16"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/images/ball1.png" HorizontalAlignment="Left" Height="58" Margin="64,219,0,223" Width="64" />
+                <Image Source="/images/ball2.png" HorizontalAlignment="Left" Height="58" Margin="40,219,0,223" Width="64"/>
+                <Image Source="/images/ball3.png" HorizontalAlignment="Left" Height="58" Margin="40,219,0,223" Width="64"/>
+                <Image Source="/images/ball4.png" HorizontalAlignment="Left" Height="58" Margin="40,219,0,223" Width="64"/>
+                <Image Source="/images/ball5.png" HorizontalAlignment="Left" Height="58" Margin="40,219,0,223" Width="64"/>
+            </StackPanel>
+            <StackPanel x:Name="resultPanel" Orientation="Horizontal" Margin="75.5,149.5,-65.4,153.4" VerticalAlignment="Center">
+                <TextBlock x:Name ="txtResult1" Background="Transparent" TextAlignment="Center" Height="23"  Width="35" FontSize="16" Margin="0,0,69.5,0"/>
+                <TextBlock x:Name ="txtResult2" Background="Transparent" TextAlignment="Center" Height="23"  Width="35" FontSize="16" Margin="0,0,68.5,0"/>
+                <TextBlock x:Name ="txtResult3" Background="Transparent" TextAlignment="Center" Height="23"  Width="35" FontSize="16" Margin="0,0,69,0"/>
+                <TextBlock x:Name ="txtResult4" Background="Transparent" TextAlignment="Center" Height="23"  Width="35" FontSize="16" Margin="0,0,69,0"/>
+                <TextBlock x:Name ="txtResult5" Background="Transparent" TextAlignment="Center" Height="23"  Width="35" FontSize="16" Margin="0,0,0,0"/>
+            </StackPanel>
+            <Label Content="NYEREMÉNY" Margin="207,356,208,93" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" FontSize="24" Background="Green" Foreground="WhiteSmoke" BorderBrush="WhiteSmoke" BorderThickness="2" Width="185" Height="51" />
+            <Label x:Name ="lblResult" Margin="147,409,147,50" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" FontSize="22" Background="Green" Foreground="WhiteSmoke" BorderBrush="WhiteSmoke" BorderThickness="2,2,2,0" Height="41" Width="306"/>
+            <Label x:Name ="lblMoney" Margin="147,450,147,10" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" FontSize="17" Background="Green" Foreground="WhiteSmoke" BorderBrush="WhiteSmoke" BorderThickness="2,0,2,2" Height="40" Width="306"/>
+            <Label Content="Az Ön által megjátszott számok" Margin="9,295,335,169" VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="17" Background="Green" Foreground="WhiteSmoke" BorderBrush="WhiteSmoke" BorderThickness="2"/>
+            <Label x:Name="lblUserNumbers" Margin="9,332,430,133" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" FontSize="16" Background="Green" Foreground="WhiteSmoke" BorderBrush="WhiteSmoke" BorderThickness="2" Width="161" Height="35" />
+            <Label Content="Az ötöslottó eheti nyerőszámai" Margin="335,295,9,169" VerticalAlignment="Center" HorizontalContentAlignment="Center" FontSize="17" Background="Green" Foreground="WhiteSmoke" BorderBrush="WhiteSmoke" BorderThickness="2"/>
+            <Label x:Name="lblLotteryNumbers" Margin="431,332,9,133" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" FontSize="16" Background="Green" Foreground="WhiteSmoke" BorderBrush="WhiteSmoke" BorderThickness="2" Width="160" Height="35"/>
+        </Grid>
+    </Grid>
+</Window>

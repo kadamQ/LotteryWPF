@@ -1,0 +1,109 @@
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\bin\Debug\lotto.exe.config
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\bin\Debug\lotto.exe
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\bin\Debug\lotto.pdb
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\lotto.csprojAssemblyReference.cache
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\MainWindow.g.cs
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\App.g.cs
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\lotto_MarkupCompile.cache
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\lotto_MarkupCompile.lref
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\MainWindow.baml
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\lotto.g.resources
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\lotto.Properties.Resources.resources
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\lotto.csproj.GenerateResource.cache
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\lotto.csproj.CoreCompileInputs.cache
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\lotto.exe
+C:\Users\Ildikó\Desktop\progkörnybeadandó\lotto\lotto\obj\Debug\lotto.pdb
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\bin\Debug\lotto.exe.config
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\bin\Debug\lotto.exe
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\bin\Debug\lotto.pdb
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\lotto.csprojAssemblyReference.cache
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\MainWindow.g.cs
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\App.g.cs
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\lotto_MarkupCompile.cache
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\lotto_MarkupCompile.lref
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\MainWindow.baml
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\lotto.g.resources
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\lotto.Properties.Resources.resources
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\lotto.csproj.GenerateResource.cache
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\lotto.csproj.CoreCompileInputs.cache
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\lotto.exe
+C:\Users\balog\Desktop\New folder (3)\lotto\lotto\obj\Debug\lotto.pdb
+C:\Users\Ildikó\Desktop\lotto\lotto\bin\Debug\lotto.exe.config
+C:\Users\Ildikó\Desktop\lotto\lotto\bin\Debug\lotto.exe
+C:\Users\Ildikó\Desktop\lotto\lotto\bin\Debug\lotto.pdb
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\lotto.csprojAssemblyReference.cache
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\MainWindow.g.cs
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\App.g.cs
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\lotto_MarkupCompile.cache
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\lotto_MarkupCompile.lref
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\MainWindow.baml
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\lotto.g.resources
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\lotto.Properties.Resources.resources
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\lotto.csproj.GenerateResource.cache
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\lotto.csproj.CoreCompileInputs.cache
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\lotto.exe
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\lotto.pdb
+C:\Users\Ildikó\Desktop\lotto\lotto\obj\Debug\App.baml
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\bin\Debug\lotto.exe.config
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\bin\Debug\lotto.exe
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\bin\Debug\lotto.pdb
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csprojAssemblyReference.cache
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\MainWindow.g.cs
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\App.g.cs
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\lotto_MarkupCompile.cache
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\lotto_MarkupCompile.lref
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\App.baml
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\MainWindow.baml
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\lotto.g.resources
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\lotto.Properties.Resources.resources
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csproj.GenerateResource.cache
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\lotto.exe
+C:\Users\kovad\OneDrive\Asztali gép\Egyetem\progkörnybeadandó\Lotto_beadando\lotto\lotto\obj\Debug\lotto.pdb
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\bin\Debug\lotto.exe.config
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\bin\Debug\lotto.exe
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\bin\Debug\lotto.pdb
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csprojAssemblyReference.cache
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\MainWindow.g.cs
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\App.g.cs
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto_MarkupCompile.cache
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto_MarkupCompile.lref
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\App.baml
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\MainWindow.baml
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.g.resources
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.Properties.Resources.resources
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csproj.GenerateResource.cache
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csproj.CoreCompileInputs.cache
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.exe
+C:\Users\Ildikó\Desktop\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.pdb
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\bin\Debug\lotto.exe.config
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\bin\Debug\lotto.exe
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\bin\Debug\lotto.pdb
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csprojAssemblyReference.cache
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\MainWindow.g.cs
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\App.g.cs
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto_MarkupCompile.cache
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto_MarkupCompile.lref
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\App.baml
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\MainWindow.baml
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.g.resources
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.Properties.Resources.resources
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csproj.GenerateResource.cache
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csproj.CoreCompileInputs.cache
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.exe
+C:\Users\balog\Desktop\lotto_DRIVE-20191116T115643Z-001\lotto_DRIVE\Lotto_beadando\lotto\lotto\obj\Debug\lotto.pdb
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\bin\Debug\lotto.exe.config
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\bin\Debug\lotto.exe
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\bin\Debug\lotto.pdb
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csprojAssemblyReference.cache
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\MainWindow.g.cs
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\App.g.cs
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\lotto_MarkupCompile.cache
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\lotto_MarkupCompile.lref
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\App.baml
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\MainWindow.baml
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\lotto.g.resources
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\lotto.Properties.Resources.resources
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csproj.GenerateResource.cache
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\lotto.csproj.CoreCompileInputs.cache
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\lotto.exe
+C:\Users\Ildikó\Desktop\Lotto_beadando\lotto\lotto\obj\Debug\lotto.pdb

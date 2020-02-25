@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<ArrayOfLotteryHighScores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LotteryHighScores>
+    <PlayerName>ImAdamSmith95</PlayerName>
+    <Score>1</Score>
+    <UserNumbers>13, 24, 33, 42, 78</UserNumbers>
+    <LotteryNumber>17, 34, 47, 78, 80</LotteryNumber>
+    <Prize>0 forint</Prize>
+    <Money>1</Money>
+  </LotteryHighScores>
+  <LotteryHighScores>
+    <PlayerName>123</PlayerName>
+    <Score>0</Score>
+    <UserNumbers>1, 2, 3, 4, 5</UserNumbers>
+    <LotteryNumber>6, 36, 50, 54, 64</LotteryNumber>
+    <Prize>0 forint</Prize>
+    <Money>0</Money>
+  </LotteryHighScores>
+  <LotteryHighScores>
+    <PlayerName>123</PlayerName>
+    <Score>0</Score>
+    <UserNumbers>1, 2, 3, 4, 5</UserNumbers>
+    <LotteryNumber>9, 18, 38, 66, 76</LotteryNumber>
+    <Prize>0 forint</Prize>
+    <Money>0</Money>
+  </LotteryHighScores>
+  <LotteryHighScores>
+    <PlayerName>ImAdamSmith95</PlayerName>
+    <Score>1</Score>
+    <UserNumbers>13, 24, 33, 42, 78</UserNumbers>
+    <LotteryNumber>24, 52, 55, 59, 69</LotteryNumber>
+    <Prize>0 forint</Prize>
+    <Money>1</Money>
+  </LotteryHighScores>
+  <LotteryHighScores>
+    <PlayerName>ImAdamSmith95</PlayerName>
+    <Score>1</Score>
+    <UserNumbers>13, 24, 33, 42, 78</UserNumbers>
+    <LotteryNumber>32, 33, 43, 48, 55</LotteryNumber>
+    <Prize>0 forint</Prize>
+    <Money>1</Money>
+  </LotteryHighScores>
+  <LotteryHighScores>
+    <PlayerName>ImAdamSmith95</PlayerName>
+    <Score>1</Score>
+    <UserNumbers>13, 24, 33, 42, 78</UserNumbers>
+    <LotteryNumber>16, 24, 32, 50, 60</LotteryNumber>
+    <Prize>0 forint</Prize>
+    <Money>1</Money>
+  </LotteryHighScores>
+  <LotteryHighScores>
+    <PlayerName>ImAdamSmith95</PlayerName>
+    <Score>1</Score>
+    <UserNumbers>13, 24, 33, 42, 78</UserNumbers>
+    <LotteryNumber>13, 44, 59, 62, 85</LotteryNumber>
+    <Prize>0 forint</Prize>
+    <Money>1</Money>
+  </LotteryHighScores>
+  <LotteryHighScores>
+    <PlayerName>asd</PlayerName>
+    <Score>0</Score>
+    <UserNumbers>5, 13, 25, 43, 67</UserNumbers>
+    <LotteryNumber>1, 11, 17, 49, 59</LotteryNumber>
+    <Prize>0 forint</Prize>
+    <Money>0</Money>
+  </LotteryHighScores>
+  <LotteryHighScores>
+    <PlayerName>Kovacs Adam</PlayerName>
+    <Score>0</Score>
+    <UserNumbers>10, 20, 30, 40, 50</UserNumbers>
+    <LotteryNumber>21, 37, 72, 81, 90</LotteryNumber>
+    <Prize>0 forint</Prize>
+    <Money>0</Money>
+  </LotteryHighScores>
+  <LotteryHighScores>
+    <PlayerName>ImAdamSmith95</PlayerName>
+    <Score>0</Score>
+    <UserNumbers>13, 24, 33, 42, 78</UserNumbers>
+    <LotteryNumber>4, 39, 80, 87, 88</LotteryNumber>
+    <Prize>0 forint</Prize>
+    <Money>0</Money>
+  </LotteryHighScores>
+</ArrayOfLotteryHighScores>
